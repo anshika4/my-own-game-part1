@@ -213,6 +213,94 @@ function draw() {
   line60.shapeColor="blue";  
   line61.shapeColor="blue";  
 
+  thief.collide(ground);
+  thief.collide(line1);
+  thief.collide(line2);
+  thief.collide(line3);
+  thief.collide(line4);
+  thief.collide(line5);
+  thief.collide(line6);
+  thief.collide(line7);
+  thief.collide(line8);
+  thief.collide(line9);
+  thief.collide(line10);
+  thief.collide(line11);
+  thief.collide(line12);
+  thief.collide(line13);
+  thief.collide(line14);
+  thief.collide(line15);
+  thief.collide(line16);
+  thief.collide(line17);
+  thief.collide(line18);
+  thief.collide(line19);
+  thief.collide(line20);
+  thief.collide(line21);
+  thief.collide(line22);
+  thief.collide(line23);
+  thief.collide(line24);
+  thief.collide(line25);
+  thief.collide(line26);
+  thief.collide(line27);
+  thief.collide(line28);
+  thief.collide(line29);
+  thief.collide(line30);
+  thief.collide(line31);
+  thief.collide(line32);
+  thief.collide(line33);
+  thief.collide(line34);
+  thief.collide(line35);
+  thief.collide(line36);
+  thief.collide(line37);
+  thief.collide(line38);
+  thief.collide(line39);
+  thief.collide(line40);
+  thief.collide(line41);
+  thief.collide(line42);
+  thief.collide(line43);
+  thief.collide(line44);
+  thief.collide(line45);
+  thief.collide(line46);
+  thief.collide(line47);
+  thief.collide(line48);
+  thief.collide(line49);
+  thief.collide(line50);
+  thief.collide(line51);
+  thief.collide(line52);
+  thief.collide(line53);
+  thief.collide(line54);
+  thief.collide(line55);
+  thief.collide(line56);
+  thief.collide(line57);
+  thief.collide(line58);
+  thief.collide(line59);
+  thief.collide(line60);
+  thief.collide(line61);
+  
+if(keyDown("up_arrow")){
+    thief.y=thief.y-2;
+    thief.addImage(thiefImage1); 
+    thief.scale=0.2;
+    }
+
+  if(keyDown("down_arrow")){
+    thief.y=thief.y+2;
+    thief.addImage(thiefImage2); 
+    thief.scale=0.2;
+    }
+
+  if(keyDown("left_arrow")){
+    thief.x=thief.x-2;
+    thief.addImage(thiefImage2); 
+    thief.scale=0.2;
+    position="left";
+    }
+
+  if(keyDown("right_arrow")){
+   thief.x=thief.x+2; 
+   thief.addImage(thiefImage1); 
+   thief.scale=0.2;
+   position="right";
+   }
   
 
   drawSprites();
