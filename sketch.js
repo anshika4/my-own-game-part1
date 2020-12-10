@@ -302,6 +302,18 @@ if(keyDown("up_arrow")){
    position="right";
    }
   
+//coin1.debug=true;
+  coin1.setCollider("circle",0,0,100);
+  //coin2.debug=true;
+  coin2.setCollider("circle",0,0,100);
+  //coin3.debug=true;
+  coin3.setCollider("circle",0,0,100);
+  //coin4.debug=true;
+  coin4.setCollider("circle",0,0,100);
+  //coin5.debug=true;
+  coin5.setCollider("circle",0,0,100);
+  //thief.debug=true;
+  thief.setCollider("rectangle",0,0,100,160);
 
   drawSprites();
  
